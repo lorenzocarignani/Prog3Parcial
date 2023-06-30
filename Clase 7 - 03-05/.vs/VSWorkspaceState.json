@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApicacionWeb",
+    "\\ApicacionWeb\\Api",
+    "\\ApicacionWeb\\ApicacionWeb",
+    "\\ApicacionWeb\\Api\\Controllers",
+    "\\ApicacionWeb\\Servicio"
+  ],
+  "SelectedNode": "\\ApicacionWeb\\Api\\Controllers\\ProductoController.cs",
+  "PreviewInSolutionExplorer": false
+}

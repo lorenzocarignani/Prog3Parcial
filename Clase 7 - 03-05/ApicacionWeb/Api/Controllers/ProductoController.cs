@@ -24,6 +24,7 @@ namespace Api.Controllers
 
 
         //POR EJEMPLO ESTE "https://localhost:44334/api/Producto/GetListadoProductos"
+
         [HttpGet("GetListadoProductos")]
         public ActionResult<List<ProductoDTO>> GetListadoProductos()
         {

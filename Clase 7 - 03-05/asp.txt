@@ -1,0 +1,7 @@
+Ejercicio ASP .NET con integración de capas
+Desarrollar una aplicación web (ASP .NET) la cual conste de 3 capas (servicio, modelo, api). 
+La capa api deberá tener un único Controller en el cual se expondrán todos los endpoints que se correspondan con los métodos HTTP (get, post, put, delete).
+En la capa de modelos se deberá crear la entidad Auto con sus respectivas propiedades (modelo, año, precio, puertas, motor) para poder ser accedida desde la capa de negocios.
+En la capa de negocios o service, se deberá crear una clase AutoService que contenga todos los métodos para el alta de un auto en una base de datos (se deberá llenar una lista a modo de replica de base de datos), listado de autos, eliminación de autos y modificación de autos.
+Recordar que la capa Api deberá consumir los métodos del servicio según se corresponda cada endpoint, y devolverlo con el StatusCode correspondiente.
+Para probar la aplicación se deberá crear una request para cada endpoint de nuestra aplicación e impacatarla y obtener el resultado correcto.
